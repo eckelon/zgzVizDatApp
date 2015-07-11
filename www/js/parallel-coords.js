@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
     $.ajax({
-        url: 'http://10.0.3.2:3000/data',
+        url: 'http://10.10.11.113:3000/data',
         type: 'GET',
         dataType: 'JSON',
         success: initParallelCoordinates
