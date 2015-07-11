@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/eckelon/WORKSPACE/fooCordova/airzgz/airzgzapp/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="510bffa9aed28fa08de87092e40c7f6a726f875f">
+        <dex dex="/home/eckelon/WORKSPACE/fooCordova/airzgz/airzgzapp/platforms/android/build/intermediates/pre-dexed/debug/classes-1ffd30473f8c85bd1dad76aa2b6cc884a53e2e98.jar" />
+    </item>
+
+</items>

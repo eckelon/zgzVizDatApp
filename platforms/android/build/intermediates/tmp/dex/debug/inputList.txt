@@ -1,0 +1,2 @@
+/home/eckelon/WORKSPACE/fooCordova/airzgz/airzgzapp/platforms/android/build/intermediates/classes/debug
+/home/eckelon/WORKSPACE/fooCordova/airzgz/airzgzapp/platforms/android/build/intermediates/pre-dexed/debug/classes-1ffd30473f8c85bd1dad76aa2b6cc884a53e2e98.jar
