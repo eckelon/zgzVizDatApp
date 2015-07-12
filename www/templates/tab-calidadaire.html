@@ -1,0 +1,112 @@
+<ion-view icon='ion-stats-bars' view-title="Calidad del aire">
+<ion-content class="padding">
+
+
+<div class="list">
+    <label class="item item-input">
+        <span class="input-label">Start date</span>
+        <input id="startDate" type="date">
+    </label>
+    <label class="item item-input">
+        <span class="input-label">End date</span>
+        <input id="endDate" type="date"><br />
+    </label><br />
+
+    <ul class="list">
+
+        <li class="item item-toggle">
+        O&#x2083;
+        <label class="toggle toggle-positive">
+            <input id="check-o3" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+        <li class="item item-toggle">
+        SO&#x2082;
+
+        <label class="toggle toggle-calm">
+            <input id="check-so2" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+        <li class="item item-toggle">
+        NO&#x2082;
+        <label class="toggle toggle-balanced">
+            <input id="check-no2" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+        <li class="item item-toggle">
+        CO
+        <label class="toggle toggle-energized">
+            <input id="check-co" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+        <li class="item item-toggle">
+        PM&#x2081;&#x2080;
+        <label class="toggle toggle-assertive">
+            <input id="check-pm10" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+        <li class="item item-toggle">
+        SH&#x2082;
+        <label class="toggle toggle-royal">
+            <input id="check-sh2" type="checkbox" checked>
+            <div class="track">
+                <div class="handle"></div>
+            </div>
+        </label>
+        </li>
+    </ul>
+
+    <center><button type="button" class="button button-positive" id="apply">
+            Apply
+    </button></center>
+</div>
+
+
+<div class="container">
+    <ion-scroll zooming="false" direction="xy">
+    <div id="parallel-container" class="parcoords" style="width:100%; height:300px;display:none;">
+        <div class="loadingIndicator">
+            <center><ion-spinner icon="lines" class="spinner spinner-lines"></ion-spinner></center>
+        </div>
+    </div>
+    </ion-scroll>
+</div>
+<div id="table-container" class="uk-margin-top" style="display: none;">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Cont.
+                </th>
+                <th>
+                    Est.
+                </th>
+                <th>
+                    Fecha
+                </th>
+                <th>
+                    Valor
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+</ion-content>
+</ion-view>

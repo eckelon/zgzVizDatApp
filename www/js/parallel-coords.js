@@ -35,7 +35,7 @@ $(document).ready(function () {
         $container.html('');
 
         $.ajax({
-            url: '/data',
+            url: 'http://zgzvizdata.herokuapp.com/data',
             data: {
                 start: $startDate.val(),
                 end: $endDate.val()
